@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "2",
 
   // Services
   services: [
@@ -79,9 +79,8 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Sarah Townsend", rating: 5, text: "The team at Liquid Landscapes just finished landscaping my garden and I could not be happier. As is the case with all the best tradespeople I had a long wait but it was so worthwhile. Kev had already remodelled my sister’s garden so I knew …  ", date: "3 years ago" },
+    { name: "Michelle “Mich”", rating: 5, text: "Liquid landscapes are professional, personable with high standards of workmanship. ", date: "5 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
